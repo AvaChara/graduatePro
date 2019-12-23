@@ -1,1 +1,67 @@
 /* pages/personInfo/personInfo.wxss */
+
+page {
+  background-color: rgb(252, 216, 57);
+  margin: 5px;
+  border-radius: 25px;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  border-radius: 25px;
+  background-color: rgba(253, 248, 227, 0.932);
+  margin: 20px;
+  box-shadow: 2px 2px 10px #888;
+  height: auto;
+}
+
+.content {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.listimg image {
+  margin-right: 5px;
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+
+.content .listtext {
+  left: 0;
+  width: 260px;
+}
+
+.content .listicon {
+  position: absolute;
+  right: 0;
+  width: auto;
+  margin-right: 25px;
+}
+
+.content .arrows image {
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+  right: 0;
+}
+
+/*分割线样式*/
+
+.divLine {
+  background: #e0e3da;
+  width: 100%;
+  height: 5rpx;
+}
+
+.commit {
+  background-color: rgb(51, 51, 51);
+  margin-top: 80px;
+  font-size: 15px;
+  width: 130px;
+  height: 30px;
+  color: whitesmoke;
+}

@@ -1,15 +1,13 @@
 {
   "pages": [
-        "pages/main/main",
-        
-        "pages/center/center",
-        
+    "pages/main/main",
+    "pages/empInfo/empInfo",
     "pages/personInfo/personInfo",
+    "pages/center/center",
     "pages/questionnaire/questionnaire",
     "pages/test/test",
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/empInfo/empInfo"
+    "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
