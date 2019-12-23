@@ -1,0 +1,10 @@
+<!--pages/empInfo/empInfo.wxml-->
+<view class="container">  
+    <text>pages/empInfo/empInfo.wxml</text>
+      <navigator  
+        url="/pages/main/main"
+        hover-class="changestyle" 
+        open-type="switchTab"
+        >submit
+       </navigator>
+</view> 

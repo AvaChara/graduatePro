@@ -1,0 +1,58 @@
+/* pages/main/main.wxss */
+@import "../popWindow/popWindow.wxss";
+
+.swiperHome{
+  height: 180px;
+  margin: 10px;
+}
+.slide-image{
+  border-radius: 20px;
+  width: 100%;
+  height: 180px
+}
+.answerQuestionBtn{
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 60px;
+  height: 30px;
+  border-radius: 50rpx;
+  font-size: 6px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.answerQuestionBtn::after {
+  border-radius: 50rpx;
+}
+
+.questNumber{
+  margin-left: 15px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.btnImg{
+  margin-left: 0px;
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.questView{
+  background-color: rgb(245, 200, 0);
+  border-radius: 20px;
+  height: 40px;
+  display: flex; 
+  flex-direction: row;
+  margin: 15px;
+  border-width: medium;
+  border-color: black;
+}
+
+.questContent{
+  flex-direction: column;
+}
+

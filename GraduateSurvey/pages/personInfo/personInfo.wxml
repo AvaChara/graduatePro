@@ -1,0 +1,12 @@
+<!--pages/personInfo/personInfo.wxml-->
+
+<view class="container">  
+    <text>pages/personInfo/personInfo.wxml</text>
+    
+    <navigator  
+        url="/pages/main/main"
+        hover-class="changestyle" 
+        open-type="switchTab"
+        >提交信息
+       </navigator>
+</view> 

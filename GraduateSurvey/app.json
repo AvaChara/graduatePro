@@ -1,0 +1,40 @@
+{
+  "pages": [
+        "pages/main/main",
+        
+        "pages/center/center",
+        
+    "pages/personInfo/personInfo",
+    "pages/questionnaire/questionnaire",
+    "pages/test/test",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/empInfo/empInfo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "毕业生调查反馈",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#8c8c8c",
+    "selectedColor": "#f4645f",
+    "backgroundColor": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/wj2.png",
+        "iconPath": "images/wj1.png",
+        "pagePath": "pages/main/main",
+        "text": "问卷"
+      },
+      {
+        "selectedIconPath": "images/gr2.png",
+        "iconPath": "images/gr1.png",
+        "pagePath": "pages/center/center",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

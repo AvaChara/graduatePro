@@ -1,0 +1,23 @@
+<!--pages/main/main.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="swiperHome">
+
+  <block wx:for="{{imgUrls}}" wx:key="unique">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+
+</swiper>
+
+<view>
+  <view wx:for="{{array}}" wx:for-index="idx" wx:for-item="itemName">
+    <view class="questView">
+      <text class="questNumber">{{idx}}: {{itemName.message}} +{{number}}</text>
+      <button class="answerQuestionBtn" bindtap="showWindows">
+        <image class='btnImg' src='../../images/wj1.png'></image>
+      </button>
+    </view>
+  </view>
+</view>
+<!-- 引入弹窗布局 ，点击按钮显示弹窗，输入问卷编号-->
+<include src="../popWindow/popWindow.wxml" />

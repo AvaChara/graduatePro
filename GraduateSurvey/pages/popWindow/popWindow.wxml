@@ -1,0 +1,39 @@
+<!--pages/popWindow/popWindow.wxml-->
+<block wx:if="{{isShowConfirm}}">
+
+  <view class="modal-mask"
+        bindtap="onCancel"
+        catchtouchmove="preventTouchMove">
+  </view > 
+
+  <view class = "modal-dialog"> 
+    <view class = "modal-title"> 问卷编号 </view>
+
+    <view class="modal-content">
+      <view class="modal-input">
+        <input placeholder-class="input-holder" 
+               type="number" 
+               maxlength="15" 
+               bindinput="setValue" 
+               class="input" 
+               placeholder="请输入问卷编号">
+        </input >
+      </view>
+    </view > 
+
+    <view class = "modal-footer" > 
+      <view class = "btn-cancel" 
+            bindtap = "onCancel" 
+            data - status = "cancel" > 
+            取消 
+      </view>
+      <view class="btn-confirm"
+            bindtap="onConfirm" 
+            data-status="confirm">
+            确定
+      </view > 
+    </view>
+
+  </view >
+</block>
+

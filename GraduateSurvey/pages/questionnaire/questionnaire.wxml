@@ -1,0 +1,24 @@
+<!--pages/questionnaire/questionnaire.wxml-->
+<view>
+
+  <view class="view">
+    <view class="titel-view">第一题</view>
+    <scroll-view class="scroll-view">
+      <view class="view-question">年龄</view>
+
+      <radio-group class="radio-group">
+        <radio>a</radio>
+        <radio>b</radio>
+        <radio>c</radio>
+        <radio>d</radio>
+      </radio-group>
+    </scroll-view>
+  </view>
+
+  <view class="button-view">
+    <button class="pre-btn">上一题</button>
+    <button class="next-btn">下一题</button>
+  </view>
+
+  <view class="time">已用时间 14:32</view>
+</view>
