@@ -23,7 +23,6 @@
               <image src="{{item.icon}}"></image>
             </view>
             <view class="listtext">{{item.text}}</view>
-            <view class="listicon">{{item.tips}}</view>
             <view class="arrows">
               <image src="{{item.arrows}}"></image>
             </view>
@@ -32,7 +31,7 @@
         <!-- 分割线 -->
         <view class="divLine"></view>
       </block>
-      
+
     </view>
   </view>
 

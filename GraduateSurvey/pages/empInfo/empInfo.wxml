@@ -1,10 +1,27 @@
 <!--pages/empInfo/empInfo.wxml-->
-<view class="container">  
-    <text>pages/empInfo/empInfo.wxml</text>
-      <navigator  
-        url="/pages/main/main"
-        hover-class="changestyle" 
-        open-type="switchTab"
-        >submit
-       </navigator>
-</view> 
+<view class="container">
+  <view class="alllists">
+
+    <block wx:for="{{menuitems}}" wx:key="menu_for">
+
+      <view class='content'>
+
+        <view class="listimg">
+          <image src="{{item.icon}}"></image>
+        </view>
+        <view class="listtext">{{item.text}}</view>
+        <view class="listicon">{{item.tips}}</view>
+        <view class="arrows">
+          <image src="{{item.arrows}}"></image>
+        </view>
+
+      </view>
+
+      <!-- 分割线 -->
+      <view class="divLine"></view>
+    </block>
+
+  </view>
+</view>
+
+<button bindtap="commit" class="commit">确定</button>

@@ -5,9 +5,41 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    menuitems: [{
+      text: '薪资',
+      icon: '/images/gr1.png',
+      tips: 'aaa',
+      arrows: '/images/center/you.png'
+    },
+  
+    {
+      text: '是否晋升',
+      icon: '/images/gr1.png',
+      tips: 'sdafsdsdssasad',
+      arrows: '/images/center/you.png'
+    },
+    {
+      text: '职业类型',
+      icon: '/images/gr1.png',
+      tips: 'dsadadfdsfdsf',
+      arrows: '/images/center/you.png'
+    },
+    {
+      text: '是否就业',
+      icon: '/images/gr1.png',
+      tips: '',
+      arrows: '/images/center/you.png'
+    }
+    ]
   },
 
+  commit: function () {
+    wx.showToast({
+      title: '提交成功',
+      icon: 'success',
+      duration: 2000
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

@@ -7,16 +7,14 @@ Page({
   data: {
     menuitems: [{
         text: '基本资料',
-      url: '/pages/personInfo/personInfo',
+        url: '/pages/personInfo/personInfo',
         icon: '/images/gr1.png',
-        tips: '',
         arrows: '/images/center/you.png'
       },
       {
         text: '就业信息',
         url: '/pages/empInfo/empInfo',
         icon: '/images/gr1.png',
-        tips: '',
         arrows: '/images/center/you.png'
       },
     ]
